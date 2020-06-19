@@ -1,0 +1,6 @@
+module Pods_mixi_mixiTests {
+  umbrella header "Pods-mixi-mixiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
