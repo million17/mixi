@@ -12,14 +12,24 @@ import {
   StyleSheet,
   ScrollView,
   View,
+  Platform,
   Text,
   StatusBar,
 } from 'react-native';
 
 const App: () => React$Node = () => {
   return (
-    <View>
-      <Text>Mixis</Text>
+    <View style={{
+      flex: 1,
+      backgroundColor: 'black',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <Text style={{
+        marginTop: Platform.OS === 'ios' ? 34 : 0,
+        color: 'white',
+        fontSize: 22,
+      }}>Mixis</Text>
     </View>
   );
 };
