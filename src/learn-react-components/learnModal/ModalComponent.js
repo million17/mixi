@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, Modal, Alert } from 'react-native'
-import { TouchableHighlight } from 'react-native-gesture-handler';
+import { Text, View, Modal, Alert , TouchableHighlight} from 'react-native'
 
 
 export default class ModalComponent extends Component {
@@ -49,6 +48,7 @@ export default class ModalComponent extends Component {
                 <TouchableHighlight
                     onPress={() => {
                         this.setModalvisible(true);
+                        console.log('Click show');
                     }}
                 >
                     <Text>Show Modal</Text>
