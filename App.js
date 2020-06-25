@@ -114,7 +114,7 @@ function HomeScreen({ navigation }) {
 
 function LogoScreen() {
   return (
-    <Image style={{ width: 40, height: 40 }} source={require('./src/image/logo.png')} />
+    <Image style={{ width: 40, height: 40 }} source={require('./src/assets/image/logo.png')} />
   );
 }
 
