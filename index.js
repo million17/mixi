@@ -9,9 +9,11 @@ import Home from './src/Home';
 import AppList from './src/learn-react-listview/AppList';
 import FormSubmit from './src/learn-react-components/learnInputSubmit/FormSubmit';
 import SideMenu from './src/learn-react-components/learnSideMenu/SideMenu';
+import StorageApp from './src/learn-react-storage/StorageApp';
 
 
 
 
 
-AppRegistry.registerComponent(appName, () => SideMenu);
+
+AppRegistry.registerComponent(appName, () => StorageApp);
