@@ -10,10 +10,12 @@ import AppList from './src/learn-react-listview/AppList';
 import FormSubmit from './src/learn-react-components/learnInputSubmit/FormSubmit';
 import SideMenu from './src/learn-react-components/learnSideMenu/SideMenu';
 import StorageApp from './src/learn-react-storage/StorageApp';
+import Layout from './src/learn-layout/Layout';
 
 
 
 
 
 
-AppRegistry.registerComponent(appName, () => StorageApp);
+
+AppRegistry.registerComponent(appName, () => Layout);
